@@ -1,0 +1,244 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.appcontainer {
+  width: 100%;
+  min-height: 100vh;
+}
+.container {
+  max-width: 1530px;
+}
+@font-face {
+  font-family: "Radiotechnika";
+  src: local("Radiotechnika"),
+    url("./fonts/ofont.ru_Radiotechnika.ttf") format("truetype");
+  font-weight: bold;
+}
+
+* {
+  font-family: "Radiotechnika";
+}
+.bg {
+  background-attachment: fixed;
+}
+
+.form {
+  margin: auto;
+  margin-top: 100px;
+  width: 600px;
+  height: 400px;
+  background: rgba(10, 0, 73, 0.36);
+  border: 5px solid rgba(221, 221, 221, 0.25);
+  border-radius: 20px;
+}
+
+.in {
+  background: rgba(221, 221, 221, 0.25);
+  border-radius: 15px;
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  height: 60px;
+  color: white;
+  border: none;
+}
+
+.in:focus {
+  background: rgba(221, 221, 221, 0.25);
+  color: white;
+}
+
+.btn {
+  width: 300px;
+  background: rgba(116, 116, 116, 0.4);
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: auto;
+  border: none;
+  height: 60px;
+}
+
+.btn:hover {
+  background: rgba(116, 116, 116, 0.4);
+}
+
+.btn:focus {
+  background: rgba(116, 116, 116, 0.4);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu {
+  margin-top: 60px;
+}
+
+a:hover {
+  color: #ff1087;
+}
+
+.top {
+  padding-left: 0;
+}
+
+.top > li {
+  margin-top: 15px;
+  height: 50px;
+  width: 350px;
+}
+
+.event {
+  padding-left: 0;
+}
+.event > li {
+  margin-top: 25px;
+}
+.event > li:hover {
+  background: rgba(221, 221, 221, 0.15);
+  border-radius: 15px;
+}
+
+.imgCol {
+  width: 127px !important;
+  padding-right: 0 !important;
+}
+
+.news {
+  padding-left: 0;
+}
+.news > li {
+  margin-top: 30px;
+  background: rgba(221, 221, 221, 0.15);
+  border-radius: 20px;
+  width: 100%;
+  height: 400px;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ach {
+  background: rgba(221, 221, 221, 0.15);
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.nft {
+  background: rgba(221, 221, 221, 0.15);
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.c {
+  margin-top: 25px;
+}
+
+.friends {
+  padding-left: 0;
+}
+
+.search {
+  background: rgba(221, 221, 221, 0.25);
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 10px;
+  height: 50px;
+  color: white;
+  border: none;
+}
+
+.search:focus {
+  background: rgba(221, 221, 221, 0.25);
+  color: white;
+}
+
+.friends > li {
+  margin-top: 15px;
+}
+
+.pbtn {
+  height: 44px;
+}
+
+.balance {
+}
+
+/* .modalNews{
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.modal-dialog{
+width: 700px;
+} */
+
+.modal-body {
+  background: linear-gradient(161.47deg, #000853 -23.72%, #ff1087 234.1%);
+  border: 2px solid rgba(255, 255, 255, 0.67);
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.modal-content{
+  background: linear-gradient(161.47deg, #000853 -23.72%, #ff1087 234.1%);
+  border: 2px solid rgba(255, 255, 255, 0.67);
+  border-radius: 20px;
+  width: 700px;
+}
+.modal-dialog{
+  width: 700px;
+}
+
+.modal-open{
+  padding-right: 0 !important;
+}
+
+.sub{
+  margin-left: 85px;
+}
+
+a{
+  cursor: pointer
+}
